@@ -4,8 +4,7 @@ import numpy as np
 NUM_COLUMNS = 7
 COLUMN_HEIGHT = 6
 FOUR = 4
-# cd Documents\Docs_uni\4rt\Comp. intelligence\Comp. Intell
-# python3 .\conect4.py > sortida.txt
+
 # Board can be initiatilized with `board = np.zeros((NUM_COLUMNS, COLUMN_HEIGHT), dtype=np.byte)`
 # Notez Bien: Connect 4 "columns" are actually NumPy "rows"
 def valid_moves(board):
